@@ -95,13 +95,6 @@ P {
   }
 }
 
-.line {
-  border: none;
-  background-color: lightgrey;
-  color: lightgrey;
-  height: 1px;
-}
-
 .border-bottom {
   margin-top: 100px;
   border-bottom: 1px solid lightgrey;
@@ -159,7 +152,7 @@ P {
     border: 1px solid lightgrey;
     border-radius: 10px;
     width: 600px;
-    height: 160px;
+    height: 170px;
     margin-left: 160px;
     margin-bottom: 20px;
     padding: 10px;
@@ -169,12 +162,11 @@ P {
     border: 1px solid lightgrey;
     border-radius: 10px;
     position: absolute;
-    top: 180px;
-    left: 650px;
+    top: 175px;
+    left: 850px;
     width: 480px;
     height: 550px;
-    margin-left: 160px;
-    margin-bottom: 20px;
+    margin: 10px;
   }
   &__line {
     border: none;
