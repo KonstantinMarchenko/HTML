@@ -9,12 +9,27 @@ P {
   padding-right: 10px;
 }
 
+.image {
+  width: 72px;
+  height: 72px;
+  text-align: left;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.image span {
+  display: block;
+  color: blue;
+}
+
 .header {
   height: 37px;
   margin-top: 20px;
 }
 
 .header-text {
+  font-family: Arial, Helvetica, sans-serif;
   height: 57px;
   top: 40px;
   position: relative;
@@ -31,9 +46,24 @@ P {
 
 .header-text__additionall {
   position: relative;
-  margin-left: 20px;
-  left: 380px;
+  margin-left: 10px;
+  left: 250px;
   cursor: pointer;
+}
+
+.header__image img {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 1px;
+  left: 160px;
+}
+
+.header__image-additional {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  left: 160px;
 }
 
 .search {
@@ -47,6 +77,7 @@ P {
 }
 
 .search__text {
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 23px;
   margin-top: 10px;
@@ -58,6 +89,7 @@ P {
 
 .search__image {
   float: right;
+  margin-top: 14px;
   margin-right: 20px;
   cursor: pointer;
 }
@@ -102,6 +134,7 @@ P {
 .result-mod__text-regular-right {
   display: block;
   text-align: right;
+  cursor: pointer;
 }
 
 .result-mod-similar__text {
@@ -152,7 +185,7 @@ P {
   top: 180px;
   left: 650px;
   width: 480px;
-  height: 540px;
+  height: 550px;
   margin-left: 160px;
   margin-bottom: 20px;
 }
