@@ -1,162 +1,142 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8">
-        <title>Training task #1</title>
+        <title>Training task #1 v.2.0</title>
         <link rel="stylesheet" href="styles/styles.css">
     </head>
-    <body>
+
+    <body class="body_no-margins">
+
         <div class="header">
-            <div class="search">     
-                <span class="search__icon"><img src="google.png" width="92" height="33"></span>
-                <span class="search__text">Search</span>
-                <span class="search__image"><img src="keyboard.png" width="19" height="11"></span>
+
+            <div class="search-input">
+                <div class="image_google"><img src="google.png" alt="Google"></div>
+                <div class="image_search"><img src="search.png" alt="Search"></div>
+                <div class="image_keyboard"><img src="keyboard.png" alt="Keyboard"></div>
+                <div class="search-input_pointer-cursor"></div>
             </div>
-        </div>
-        <div class="header-text">
-            <span class="header__image"><img src="all.svg"></span>
-            <span class="header-text__tab">All</span>
-            <span class="header__image"><img src="image.jpg"></span>
-            <span class="header-text__tab">Images</span>
-            <span class="header__image"><img src="video.svg"></span>
-            <span class="header-text__tab">Videos</span>
-            <span class="header__image"><img src="news.png"></span>
-            <span class="header-text__tab">News</span>
-            <span class="header__image"><img src="map.png"></span>
-            <span class="header-text__tab">Maps</span>  
-            <span class="header-text__additionall">Settings</span>    
-            <span class="header-text__additionall">Tools</span>
-        </div>
 
-        <hr class="line">
+            <div class="tabs">
+                <span class="image_tabs"><img src="search.png"></span>
+                <span class="tabs__text">All</span>
+                <span class="image_tabs"><img src="image.jpg"></span>
+                <span class="tabs__text">Images</span>
+                <span class="image_tabs"><img src="video.svg"></span>
+                <span class="tabs__text">Videos</span>
+                <span class="image_tabs"><img src="news.png"></span>
+                <span class="tabs__text">News</span>
+                <span class="image_tabs"><img src="map.png"></span>
+                <span class="tabs__text">Maps</span>
+                <span class="tabs__text_right">Settings</span>    
+                <span class="tabs__text_right">Tools</span>
+            </div>
 
-        <div class="results__time">
-            About 66 700 000 results (0,42 seconds)
         </div>
 
-        <div class="results__most-accurate">      
-            <section>
-                <span class="results__text-regular">
-                <span class="results__image"><img src="sass.png"></span>
-                    <font size="3"><b>Sass</b> (Syntactically Awesome Stylesheets) is a module included in Haml.
+        <div class="result">
+
+            <div class="result__time">About 66 700 000 results (0,42 seconds)</div>
+            
+            <div class="result-most-accurate">
+                <div class="image_sass"><img src="sass.png" alt="Sass"></div>
+                <div class="result-most-accurate__text_regular">
+                    <b>Sass</b> (Syntactically Awesome Stylesheets) is a module included in Haml.
                     <b>Sass</b> is a CSS-based metalanguage designed to increase the level of CSS code abstraction
-                    and simplify cascading style sheet files.</font> <br>
-                </span>
-                <span class="results__text-link">
-                    <p></p>
-                    Sass - Wikipedia <br>
-                </span>
-                <span class="results__text-website">
-                    https://en.wikipedia.org/wiki/Sass
-                </span>
-            </section>
-        </div>
+                    and simplify cascading style sheet files.
+                </div>
+                <div class="result-most-accurate__text_website">Sass - Wikipedia</div>
+                <div class="result-most-accurate__text_link">https://en.wikipedia.org/wiki/Sass</div> 
+            </div>
 
-        <div class="results__mod">
+            <div class="result-mod">
+                <div class="image_sass"><img src="sass.png" alt="Sass"></div>
+                <div class="result-mod__text_regular-big">Sass</div>
+                <div class="result-mod__text_regular">Programming language</div>
+                <div class="result-mod__bottom-line"></div>
+                <div class="result-mod__text_regular">
+                        Sass is a style sheet language initially designed by Hampton catlin
+                        and developed by Natali Weizenbaum. After its initial versions,
+                        Weizenbaum and Chris Eppstein have continued to extend Sass with SassScript,
+                        a simple scripting language used in Sass files. <p>
+                        <b>Stable release:</b> 3.5.5 <p>
+                        <b>Designed by::</b> Hampton Catlin <p>
+                        <b>First appeared:</b> November 28, 2006 <p>
+                </div>
+                <span class="result-mod__text_regular">Similar results</span>
+                <div class="result-mod__text_regular-right">More 15+</div>   
+                <div class="image_similar-result"><img src="less.jpg"><span>LESS</span></div>
+                <div class="image_similar-result"><img src="css.png"><span>CSS</span></div>
+                <div class="image_similar-result"><img src="stylus.png"><span>Stylus</span></div>
+                <div class="image_similar-result"><img src="typescript.jpg"><span>TypeScript</span></div>
+                <div class="image_similar-result"><img src="javascript.png"><span>JavaScript</span></div>
+            </div>
 
-            <span class="result-mod__text-regular">
-                
-                <p></p><font size="15"><b>Sass</b></font><br>
-                Programming language
-            </span> 
-            <span class="results__image"><img src="sass.png"></span>
+            <div class="result-main">
 
-            <div class="border-bottom"></div> 
+                <div class="result-main__text_website">
+                    Sass: Syntatically Awesome Style Sheets
+                </div>
+                <div class="result-main__text_link">
+                    https://sass-lang.com/
+                </div>
+                <div class="result-main__text_regular">
+                    Sass is completely compatible with all versions of CSS.
+                    We take this compatibilitxy seriously, so that you can seamlessly use any available CSS libraries. <br>
+                </div>
+                <span class="result-main__text_website">Sass basics</span>
+                <span class="result-main__text_website">Install Sass</span>
+                <span class="result-main__text_website">Dart Sass</span>
+                <span class="result-main__text_website">Ruby Sass</span>
 
-            <span class="result-mod__text-regular">
-                <p></p>
-                Sass is a style sheet language initially designed by Hampton catlin
-                and developed by Natali Weizenbaum. After its initial versions,
-                Weizenbaum and Chris Eppstein have continued to extend Sass with SassScript,
-                a simple scripting language used in Sass files. <p>
-                <br>
-                <b>Stable release:</b> 3.5.5 <p>
-                <b>Designed by::</b> Hampton Catlin <p>
-                <b>First appeared:</b> November 28, 2006 <p>
-            </span>
+                <div class="result-main__text_website">
+                    Sass: Syntatically Awesome Style Sheets
+                </div>
+                <div class="result-main__text_link">
+                    https://sass-lang.com/
+                </div>
+                <div class="result-main__text_regular">
+                    Sass is completely compatible with all versions of CSS.
+                    We take this compatibilitxy seriously, so that you can seamlessly use any available CSS libraries. <br>
+                </div>
+                <span class="result-main__text_website">Sass basics</span>
+                <span class="result-main__text_website">Install Sass</span>
+                <span class="result-main__text_website">Dart Sass</span>
+                <span class="result-main__text_website">Ruby Sass</span>
 
-            <span class="result-mod-similar__text">Similar results</span>
-            <span class="result-mod__text-regular-right">More 15+</span>
-            <div class="image"><img src="less.jpg"><span>LESS</span></div>
-            <div class="image"><img src="css.png"><span>CSS</span></div>
-            <div class="image"><img src="stylus.png"><span>Stylus</span></div>
-            <div class="image"><img src="typescript.jpg"><span>TypeScript</span></div>
-            <div class="image"><img src="javascript.png"><span>JavaScript</span></div>
-        </div>
+                <div class="result-main__text_website">
+                    Sass: Syntatically Awesome Style Sheets
+                </div>
+                <div class="result-main__text_link">
+                    https://sass-lang.com/
+                </div>
+                <div class="result-main__text_regular">
+                    Sass is completely compatible with all versions of CSS.
+                    We take this compatibilitxy seriously, so that you can seamlessly use any available CSS libraries. <br>
+                </div>
+                <span class="result-main__text_website">Sass basics</span>
+                <span class="result-main__text_website">Install Sass</span>
+                <span class="result-main__text_website">Dart Sass</span>
+                <span class="result-main__text_website">Ruby Sass</span>
 
-        <div class="results">
+                <div class="result-main__text_website">
+                    Sass: Syntatically Awesome Style Sheets
+                </div>
+                <div class="result-main__text_link">
+                    https://sass-lang.com/
+                </div>
+                <div class="result-main__text_regular">
+                    Sass is completely compatible with all versions of CSS.
+                    We take this compatibilitxy seriously, so that you can seamlessly use any available CSS libraries. <br>
+                </div>
+                <span class="result-main__text_website">Sass basics</span>
+                <span class="result-main__text_website">Install Sass</span>
+                <span class="result-main__text_website">Dart Sass</span>
+                <span class="result-main__text_website">Ruby Sass</span>
+            </div>
 
-            <span class="results__text-link">
-                Sass: Syntatically Awesome Style Sheets <br>
-            </span>
-
-            <span class="results__text-website">
-                https://sass-lang.com/ <br>
-            </span>
-
-            <span class="results__text-regular">
-                Sass is completely compatible with all versions of CSS.
-                We take this compatibilitxy seriously, so that you can seamlessly use any available CSS libraries. <br>
-            </span>
-
-            <span class="results__text-link"><font size="3px">Sass basics</span>
-            <span class="results__text-link"><font size="3px">Install Sass</span>
-            <span class="results__text-link"><font size="3px">Dart Sass</span>
-            <span class="results__text-link"><font size="3px">Ruby Sass</span> <br> <p></p>
-
-            <span class="results__text-link">
-                Sass: Syntatically Awesome Style Sheets <br>
-            </span>
-
-            <span class="results__text-website">
-                https://sass-lang.com/ <br>
-            </span>
-
-            <span class="results__text-regular">
-                Sass is completely compatible with all versions of CSS.
-                We take this compatibility seriously, so that you can seamlessly use any available CSS libraries. <br>
-            </span>
-
-            <span class="results__text-link"><font size="3px">Sass basics</span>
-            <span class="results__text-link"><font size="3px">Install Sass</span>
-            <span class="results__text-link"><font size="3px">Dart Sass</span>
-            <span class="results__text-link"><font size="3px">Ruby Sass</span> <br> <p></p>
-
-            <span class="results__text-link">
-                Sass: Syntatically Awesome Style Sheets <br>
-            </span>
-
-            <span class="results__text-website">
-                https://sass-lang.com/ <br>
-            </span>
-
-            <span class="results__text-regular">
-                Sass is completely compatible with all versions of CSS.
-                We take this compatibility seriously, so that you can seamlessly use any available CSS libraries. <br>
-            </span>
-
-            <span class="results__text-link"><font size="3px">Sass basics</span>
-            <span class="results__text-link"><font size="3px">Install Sass</span>
-            <span class="results__text-link"><font size="3px">Dart Sass</span>
-            <span class="results__text-link"><font size="3px">Ruby Sass</span> <br> <p></p>   
-
-            <span class="results__text-link">
-                Sass: Syntatically Awesome Style Sheets <br>
-            </span>
-
-            <span class="results__text-website">
-                https://sass-lang.com/ <br>
-            </span>
-
-            <span class="results__text-regular">
-                Sass is completely compatible with all versions of CSS.
-                We take this compatibility seriously, so that you can seamlessly use any available CSS libraries. <br>
-            </span>
-
-            <span class="results__text-link"><font size="3px">Sass basics</span>
-            <span class="results__text-link"><font size="3px">Install Sass</span>
-            <span class="results__text-link"><font size="3px">Dart Sass</span>
-            <span class="results__text-link"><font size="3px">Ruby Sass</span> <br> <p></p>   
         </div>
     </body>
+
 </html>
