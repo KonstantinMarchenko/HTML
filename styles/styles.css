@@ -23,6 +23,13 @@ P {
   color: blue;
 }
 
+.line {
+  border: none;
+  background-color: lightgrey;
+  color: lightgrey;
+  height: 1px;
+}
+
 .header {
   height: 37px;
   margin-top: 20px;
